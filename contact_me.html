@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CONTACT ME</title>
+    </head>
+    <body>
+        <h1>CONTACT ME</h1>
+        <form action="/api/enrollment" method="post">
+            <div>
+                <label for="First name">Full Name:</label>
+                <input 
+                    type="text" 
+                    id="First_name"
+                    name="First_name"
+                    />
+            </div>
+            <div>
+                <label for="Last name">Phone Number:</label>
+                <input
+                    type="text"
+                    id="Last name"
+                    name="Last name"
+                />
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    />
+            </div>
+
+            <div>
+                <p>Preferred contact method?</p>
+                <label for="fullCourse">Email</label>
+                <input 
+                    type="radio"
+                    id="courseType"
+                    value="fullCourse"
+                >
+                
+                <label for="introCourse">Phone</label>
+                <input 
+                    type="radio"
+                    id="courseType"
+                    value="fullCourse"
+                />
+
+            </div>
+
+            <div>
+                <label for="description">Message</label>
+                <textarea
+                    id="description" 
+                    name="description" 
+                    rows="10">
+                </textarea>
+            </div>
+
+            <div>
+                <button
+                    type="submit">Submit Student
+            </button>
+            </div>
+
+        </form>
+</body>
+</html>
